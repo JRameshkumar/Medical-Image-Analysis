@@ -64,7 +64,7 @@ Request to provide me an ouput response with these 4 headings Detailed Analysis,
 """
 
 #model configuration
-model = genai.GenerativeModel(model_name="gemini-1.5-flash",
+model = genai.GenerativeModel(model_name="Med-Gemini-2D",
                               generation_config=generation_config,
                               safety_settings=safety_settings)
 
